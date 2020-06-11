@@ -1,0 +1,352 @@
+/* Reset */
+
+html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, address, code, img, 
+small, strong, dl, dt, dd, ol, ul, li,
+fieldset, form, label {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1.5;
+        font-family: helvetica, arial, sans-serif; font-size:12px;
+}
+ol, ul {
+	list-style: none;
+}
+
+br {line-height: 1px; height: 1px; margin: 0px; padding: 0px;}
+
+/* End Reset */
+
+
+/* Main */
+
+body {
+ background: #ffffff url(images/body_bg.jpg) repeat-x;
+}
+a.indigo {color: #1596AF;}
+
+/*added by can 12 May*/
+
+.guideheader {font-size:16px}
+.tourheader {font-size:18px;}
+
+#wrap {
+ width: 1024px; background-color:#FFF;
+ margin: auto; }
+
+#header { margin-top: 0px;}
+
+#header #logo  {
+ background: url(images/logo.gif) no-repeat;
+ width: 217px;
+ height: 43px;
+ text-indent: -9999px;
+ float: left;
+}
+
+
+
+
+#headerwrap { width: 976px; margin-top: 0px;}
+#icons {}
+
+#box {}
+
+#logo { float: left; margin: 5px 0;}
+
+#slogan {float: left; color: #0b91c4; font-size: 18px; font-weight:bold; font-style:italic;  margin-top: 25px; margin-left: 120px;}
+
+#phone {float: right; color: #9ad32b; font-size: 15px; font-weight:bold; margin-top: 25px;}
+
+#nav { float: left; margin-top: 15px; margin-bottom: 15px; margin-left: 23px;}
+
+#nav ul {
+	background: url(images/nav.gif) no-repeat;
+ overflow: hidden; height: 29px;
+ padding-left: 0px; color:#FFF; width: 976px; 
+}
+
+#nav ul li {
+ float: left;
+ padding-left: 22px;
+ margin-right: 0px;
+ margin-top: 0px;
+}
+
+#language {float: right; color: #9ad32b; font-size: 15px; font-weight:bold; margin-top: 25px;}
+
+
+
+#nav ul li a { 
+ color: #ffffff;
+ font-size: 14px;
+ font-weight:bold;
+ position: relative;
+ top: 4px;
+ left: 0px;
+ text-decoration: none;
+}
+
+#nav ul li a:hover {
+ text-decoration: none;
+ color: white;
+}
+
+
+
+
+#content { width: 976px; clear:both; margin: 20px auto 0;}
+
+#left1 { float: right; width: 284px;}
+#middle1 {float: right; width: 364px; margin-left: 20px;}
+#right1 {float: left; width: 284px;}
+#single1 {float: left; width: 672px;}
+#single-left1 {float: right; width: 672px;}
+
+#left { float: left; width: 284px;}
+#middle {float: left; width: 364px; margin-left: 20px;}
+#right {float: right; width: 284px;}
+#single {float: right; width: 672px;}
+#single-left {float: left; width: 672px;}
+
+
+#offer { width: 283px; height: 424px; background:url(images/banner_offers.jpg) top center no-repeat;}
+
+#click {text-indent: -9999px;}
+#corner { font-weight:bold; color:#FFF; font-size:17px; padding-left: 15px; padding-top: 15px;}
+#offer_item { color:#FFF; text-align:center; margin-top: 65px; font-size:15px}
+.price { font-weight:bold;}
+
+
+.box_small { width: 284px; margin-top:20px; background: url(images/bgr_box.jpg) top no-repeat; clear:both; padding-top: 10px; text-align: left;}
+
+/*added by can 5 may*/
+.box_small2 { width: 284px; margin-top:20px; background: url(images/bgr_box.jpg) top no-repeat; clear:both; padding-top: 10px; text-align: left;}
+
+table.text {width: 264px; margin: 0 auto;}
+.bigtxt {font: normal 14px/18px Arial, Helvetica, sans-serif;}
+.coltxt p {
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.bigertxt {font: normal 17px/24px Arial, Helvetica, sans-serif;}
+ul.list {padding: 0; margin: 0; list-style-type: none; margin-top: 15px; font: normal 14px/18px Arial, Helvetica, sans-serif;}
+	ul.list li {padding: 0; margin: 0; float: left; width: 132px; padding-bottom: 3px;}
+	ul.list a {display: block; background: url(images/arrow_dot.png) left center no-repeat; padding-left: 20px; color: #102021;}
+	ul.list a:hover {text-decoration: none;}
+ul.sidebar {padding: 0; margin: 0; list-style-type: none; margin-top: 15px; font: normal 14px/18px Arial, Helvetica, sans-serif;}
+	ul.sidebar li {padding: 0; margin: 0; padding-bottom: 3px;}
+	ul.sidebar a {display: block; background: url(images/arrow_dot.png) left center no-repeat; padding-left: 20px; color: #102021;}
+	ul.sidebar a:hover {text-decoration: none;}
+
+.box_small img {padding: 10px; padding-top: 0px}   
+
+/*added by can 5 may*/
+.box_small2 img {padding:}
+
+
+.category {padding-top: 10px;}
+.category a {color: #0b91c4; font-size:14px; text-decoration:underline;}
+.category ul li {marging-top: 5px;}
+
+
+#travelguide { color:#FFF; width: 256px;}
+#travelguide img {padding: 0px;}
+#travelguide .txt { padding-top: 10px; padding-bottom: 20px;}
+.turkeytravelguide { font-size: 18px; font-weight:bold;color:#FFF}
+.localinsight { font-size: 13px}
+
+
+.box_big { width: 364px; margin-top:20px; background: url(images/bgr_box_big.jpg) top no-repeat; clear:both; padding-top: 10px; text-align: left;}
+.box_big img {padding: 10px; padding-top: 0px}
+
+.box_bigger {width: 650px; background: url(images/box-wrapper2.jpg) center top no-repeat; padding: 10px 11px 0; text-align: left;}
+	.box_bigger p {padding-bottom: 10px; font-size: 14px;}
+
+/*added by can 5 may*/
+.box_bigger1 {width: 650px; background: url(images/box-wrapper2.jpg) center top no-repeat; padding: 10px 11px 10px; text-align: left;}
+	.box_bigger1 p {padding-bottom: 5px; font-size: 14px;}
+
+
+
+
+
+.clear { line-height: 1px; clear:both}
+
+#why {font-size:25px; color:#FFF; font-weight:bold; width: 264px; height: 165px; background:url(images/bgr_why.jpg) #a6d845 top center no-repeat; margin-left: 10px; padding-top: 120px;}
+
+.why_big_text {font-size: 28px; padding-left: 20px; line-height: 25px;}
+
+.why_sm_text {font-size: 18px;}
+
+#why .more a { font-size: 11px; text-decoration:underline; padding-right: 20px; margin-top: -5px;
+}
+
+
+
+
+
+
+#why ul {margin-left: 38px; vertical-align:top; margin-top: 1px; }
+
+#why ul li { list-style:url(images/arrow_dot.png); color:#000; font-size: 12px;}
+
+#photobanner { width: 362px; height: 121px; background:url(images/banner_photoquiz.gif) top center no-repeat; margin-top: 20px;}
+
+#photobanner  .discover { color:#000; font-size: 14px; font-weight:bold; padding-right: 20px; padding-top: 20px;}
+
+#photobanner  .try { color:#fff; font-size: 16px; font-weight:bold; padding-left: 110px; padding-top: 10px;}
+
+#photobanner  .turkey { color:#fff; font-size: 22px; font-weight: bold; padding-right: 20px; letter-spacing:1.5px; padding-top: 5px;}
+#photobanner  img { margin: 0px; padding: 0px;}
+
+
+/*added by can 5 may*/
+#photobanner1 { width: 275px; height: 160px; background:url(images/kucukbanner_photoquiz.gif) top center no-repeat; margin-top:;}
+
+    #photobanner1  .discover1 { color:#000; font-size: 18px; font-weight:bold; padding-right: 40px; padding-top: 10px;}
+    #photobanner1  .and { color:#000; font-size: 16x; font-weight:bold; padding-right: 70px; padding-top:}
+    #photobanner1  .windiscount { color:#000; font-size: 18px; font-weight:bold; padding-right: 10px; padding-top: px;}
+
+     #photobanner1  .try { color:#fff; font-size: 16px; font-weight:bold; padding-left: 0px; padding-top: 10px;}
+
+      #photobanner1  .turkey { color:#fff; font-size: 22px; font-weight: bold; padding-right: 20px; letter-spacing:1.5px; padding-top: 5px;}
+        #photobanner1  img { margin: 0px; padding: 0px;}
+
+     
+
+.infolinks { width: 284px; background: url(images/bgr_box_orange_small.gif) top center no-repeat; margin-top: 20px;}
+.title { color:#FFF; font-size: 14px; font-weight:bold; padding-bottom: 10px; padding-left: 15px; padding-top: 7px;}
+
+
+
+.green-title {background: url(images/bgr_green.gif) center center no-repeat; width: 269px; height: 27px; font: normal 16px/27px Arial, Helvetica, sans-serif; color: #fff; text-align: center; margin-bottom: 10px;}
+.violet-title {background: url(images/bgr_violet.gif) center center no-repeat; width: 269px; height: 27px; font: normal 16px/27px Arial, Helvetica, sans-serif; color: #fff; text-align: center; margin-bottom: 10px;}
+
+/*added by can 5 may*/
+.violet-title1 {background: url(images/bgr_violet.gif) center center no-repeat; width: 269px; height: 27px; font: normal 16px/27px Arial, Helvetica, sans-serif; color: #fff; text-align: center; margin-bottom: 10px; margin-top: 20px;}
+
+
+.violet-big-title {background: url(images/bgr-big_violet.gif) center center no-repeat; width: 344px; height: 27px; font: normal 16px/27px Arial, Helvetica, sans-serif; color: #fff; text-align: center; margin-bottom: 10px;}
+.green_big_title {background: url(images/bgr_big_green.gif) center center no-repeat; width: 650px; height: 27px; font: normal 16px/27px Arial, Helvetica, sans-serif; color: #fff; text-align: center; margin-bottom: 10px;}
+
+.violet_big_title {background: url(images/bgr_big_violet.gif) center center no-repeat; width: 650px; height: 27px; font: normal 16px/27px Arial, Helvetica, sans-serif; color: #fff; text-align: center; margin-bottom: 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*added by can 5 may*/
+.green_big_title1 {background: url(images/bgr_big_green.gif) center center no-repeat; 
+width: 650px; height: 27px; font: 20px Arial, Helvetica, sans-serif; 
+color: #ffffff; text-align: center; margin-bottom: 10px;}
+
+
+.box_single {width: 954px; background: url(images/box-wrapper3.jpg) center top no-repeat; padding: 10px 11px 0; text-align: left;}
+	.box_single p {padding-bottom: 10px; font-size: 14px;}
+.violet_single_title {background: url(images/bgr_single_violet.gif) center center no-repeat; width: 954px; height: 27px; font: normal 16px/27px Arial, Helvetica, sans-serif; color: #fff; text-align: center; margin-bottom: 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+.indigo-title {background: url(images/bgr_indigo.gif) center center no-repeat; width: 269px; height: 27px; font: normal 16px/27px Arial, Helvetica, sans-serif; color: #fff; text-align: center; margin-bottom: 10px;}
+.tag a {color: #1F87AD; text-decoration: none;}
+.tag a:hover {text-decoration: underline;}
+.green-big-title {background: url(images/bgr-big_green.gif) center center no-repeat; width: 344px; height: 27px; font: normal 16px/27px Arial, Helvetica, sans-serif; color: #fff; text-align: center; margin-bottom: 10px; }
+table.form {width: 300px; margin: 0 auto;}
+	table.form td {padding: 5px 0;}
+.leftalign {text-align: left;}
+.rightalign {text-align: right;}
+.centeralign {text-align: center;}
+.middlealign {vertical-align: middle;}
+td {vertical-align: top;}
+a.speaker {background: url(images/speaker.gif) left center no-repeat; padding-left: 20px; color: #707171;}
+table.discover {}
+	table.discover td {padding: 0;}
+		table.discover table td {padding: 1px 0;}
+input.btn-next {background: url(images/btn_next2.gif) center center no-repeat; border: 0; width: 86px; height: 36px; font: normal 16px Arial, Helvetica, sans-serif; color: #333; padding-right: 20px;}
+
+
+.infolinks ul {margin-left: 35px; vertical-align:top; margin-top: 1px; margin-bottom: 0px;}
+
+.infolinks ul li { list-style:url(images/arrow_dot.png); color:#000; font-size: 12px;}
+
+.infolinks ul li a { text-decoration: underline;}
+
+.big { width: 364px; background-image:url(images/bgr_box_blue.gif)}
+
+.big td { margin-left: -2px;}
+
+.searchbox {width: 364px; background:url(images/bgr_box_blue.gif) top center no-repeat;}
+
+#searchbtn { background:url(images/btn.gif) top center no-repeat; width: 100px; height: 23px; padding-right: 15px; padding-bottom: 5px; border:none; }
+
+ul.arrow {margin-left: 15px; vertical-align:top; margin-top: 1px;
+margin-bottom: 0px;}
+ul.arrow li { list-style:url(images/arrow_dot.png); color:#000; font-size:
+12px;}
+ul.arrow li a { text-decoration: underline;}
+.indigo-big-title {background: url(images/bgr-big_indigo.gif) center center
+no-repeat; width: 344px; height: 27px; font: bold 14px/27px Arial,
+Helvetica, sans-serif; color: #fff; text-align: center; margin-bottom:
+10px;}
+.indigo2-title {background: url(images/bgr_indigo2.gif) center center
+no-repeat; width: 269px; height: 27px; font: bold 14px/27px Arial,
+Helvetica, sans-serif; color: #fff; text-align: center; margin-bottom:
+10px;}
+
+
+
+
+#footer { background:url(images/footer.gif) top center no-repeat; height: 40px; padding: 15px 40px; margin-top: 20px;}
+
+#footer a { text-decoration: underline; color: #000; text-decoration: none;}
+
+input.btn-next {background: url(images/btn_next2.gif) center center no-repeat; border: 0; width: 86px; height: 36px; font: normal 16px Arial, Helvetica, sans-serif; color: #333; padding-right: 20px;}
+
+
+/* added on 3.3.11 */
+table.text h1 {padding: 0; margin: 0; font: bold 14px/20px Arial, Helvetica, sans-serif; padding-left: 15px;}
+table.txt h1 {padding: 0; margin: 0; font: bold 14px/20px Arial, Helvetica, sans-serif; padding-bottom: 10px;}
+
+ul.sidebar2 {padding: 0; margin: 0; list-style-type: none; margin-top: 15px; font: normal 14px/18px Arial, Helvetica, sans-serif;}
+	ul.sidebar2 li {padding: 0; margin: 0; padding-bottom: 3px; display: block; background: url(images/arrow_dot.png) left 5px no-repeat; padding-left: 20px; color: #102021;}
+
+.general-txt {font-size: 14px; padding-bottom: 10px;}
+table.table {}
+	table.table td {font-size: 13px; padding: 3px;}
+	table.table a {text-decoration: none;}
+	table.table a:hover {text-decoration: underline;}
+	table.table td.grey {background: #CCC; color: #333;}
+		table.table td.grey a {color: #127096;}
+	table.table td.deepgrey {background: #999; color: #fff;}
+		table.table td.deepgrey a {color: #C6E7F4;}
+	table.table td.orange {background: #FEAC2D; color: #333;}
+		table.table td.orange a {color: #333;}
+.wrapborder {border: 1px solid #999; padding: 3px; margin: 15px 0; text-align: center;}
+#generalbtn { background:url(images/btn2.gif) top center no-repeat; width: 100px; height: 23px; padding-bottom: 5px; border:none; }
